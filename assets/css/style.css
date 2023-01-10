@@ -1,0 +1,118 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	background: #f8f8f8;
+}
+.form-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+.form-col {
+  width: 50%;
+  padding: 0 8px;
+}
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 14px;
+color: #555;
+}
+.form-control {
+  width: 100%;
+  border: 1px solid #e1dede;
+  background: #fff;
+  padding: 5px 5px;
+  font-size: 13px;
+  color: #666;
+  border-radius: 2px;
+  outline: none;
+}
+.form-html {
+  margin: 0px auto;
+  padding: 15px 8px;
+  background: #fff;
+  width: 50%;
+}
+sup {
+	color: red;
+}
+.form-radio {
+  width: 100%;
+}
+.form-radio-group .form-col {
+  flex-wrap: wrap;
+  align-items: inherit;
+}
+.form-checkbox p {
+  margin-bottom: 8px;
+}
+.form-radio-group label {
+  min-width: inherit !important;
+  color: #555;
+  font-size: 13px;
+  width: auto !important;
+  display: inline-block !important;
+}
+.btn.form-btn {
+  background: #1a2b3c;
+  border: 1px solid #1a2b3c;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn.form-btn.cancel-btn {
+  color: #1a2b3c;
+  background: transparent;
+  margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+	/*.form-html {
+		width: 945px;
+	}
+	.form-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-col .form-control {
+  width: 245px;
+}
+.form-col label {
+  display: inline-block;
+  min-width: 190px;
+  margin: 0;
+}
+.textarea-form .form-col {
+  flex-wrap: wrap;
+}
+.textarea-form .form-col label, .textarea-form .form-col textarea {
+  width: 100%;
+}*/
+
+}
+
+@media (max-width:767px) {
+
+	.form-html {
+		width: 100%;
+	}
+
+}
